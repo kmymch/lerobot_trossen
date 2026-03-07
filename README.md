@@ -25,6 +25,7 @@ uv pip list | grep trossen
 # lerobot-robot-trossen
 # lerobot-teleoperator-trossen
 # trossen-arm
+# trossen-slate
 ```
 
 ## Usage
