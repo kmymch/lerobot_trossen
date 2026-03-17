@@ -27,5 +27,8 @@ uv run lerobot-record \
   --dataset.episode_time_s=30 \
   --dataset.reset_time_s=10 \
   --dataset.num_episodes=1 \
-  --dataset.single_task="none"\
-  --resume=true
+  --dataset.single_task="none" \
+  --resume=true \
+  --dataset.streaming_encoding=true \
+  --dataset.encoder_threads=2 \
+  --dataset.vcodec=auto
