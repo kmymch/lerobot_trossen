@@ -1,5 +1,13 @@
 # LeRobot Trossen Integration
 
+## About This Repository
+
+This repository includes the following enhancements and modifications:
+
+- **Forked Repository**: This is a fork of the original LeRobot Trossen integration
+- **RTX 50 Series Support**: Configured with modified TOML settings to enable training on RTX 50 series GPUs
+- **Flexible Episode Management**: Supports removing arbitrary episodes via edit script even when feature column order changes during dataset collection
+
 ## Overview
 
 This package contains LeRobot integrations for the Trossen AI series of robots.
